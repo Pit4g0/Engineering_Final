@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Gra",
+			"Path": "..\\Source\\Gra.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GraEditor",
+			"Path": "..\\Source\\GraEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

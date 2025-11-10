@@ -1,0 +1,42 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="WallGlass_Wall-single_Panel-1X1"
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="HiResMeshDescription" Archetype="/Script/Engine.StaticMeshDescriptionBulkData'/Script/Engine.Default__StaticMesh:HiResMeshDescription'"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMesh:HiResMeshDescription.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0"
+   End Object
+   Begin Object Class=/Script/InterchangeEngine.InterchangeAssetImportData Name="InterchangeAssetImportData_0"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_0"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMeshDescriptionBulkData:MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="HiResMeshDescription"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   Begin Object Name="BodySetup_0"
+      AggGeom=(ConvexElems=((VertexData=((X=50.100000,Y=0.041421,Z=100.041421),(X=50.100000,Y=-0.041436,Z=-0.041421),(X=-50.100000,Y=0.041421,Z=-0.041421),(X=-50.100000,Y=-0.041436,Z=100.041421),(X=-50.041421,Y=0.100000,Z=100.041406),(X=50.041421,Y=0.100000,Z=-0.041421),(X=-50.041421,Y=-0.100015,Z=-0.041406),(X=50.041421,Y=-0.100015,Z=100.041421)),IndexData=(7,0,3,6,2,1,4,2,3,5,2,4,7,1,0,6,1,7,6,3,2,6,7,3,5,4,0,4,3,0,5,1,2,5,0,1),ElemBox=(Min=(X=-50.100000,Y=-0.100015,Z=-0.041421),Max=(X=50.100000,Y=0.100000,Z=100.041421),IsValid=True))))
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+   End Object
+   Begin Object Name="InterchangeAssetImportData_0"
+      NodeUniqueID="Factory_\\Mesh\\Plane_078"
+   End Object
+   Begin Object Name="NavCollision_0"
+   End Object
+   Begin Object Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   SourceModels(0)=(StaticMeshDescriptionBulkData="/Script/Engine.StaticMeshDescriptionBulkData'StaticMeshDescriptionBulkData_0'",BuildSettings=(bUseMikkTSpace=False,bRecomputeNormals=False,bRecomputeTangents=False,bRemoveDegenerates=False,bBuildReversedIndexBuffer=False,bGenerateLightmapUVs=False),CacheMeshDescriptionTrianglesCount=14,CacheMeshDescriptionVerticesCount=20)
+   SectionInfoMap=(Map=((0, ())))
+   OriginalSectionInfoMap=(Map=((0, ())))
+   LightmapUVVersion=10
+   StaticMaterials(0)=(MaterialInterface="/Script/Engine.Material'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'",MaterialSlotName="Material_0",ImportedMaterialSlotName="Material_0",UVChannelData=(bInitialized=True,LocalUVDensities[0]=67.209229))
+   LightmapUVDensity=67.209229
+   AssetImportData="/Script/InterchangeEngine.InterchangeAssetImportData'InterchangeAssetImportData_0'"
+   bCustomizedCollision=True
+   ExtendedBounds=(Origin=(X=0.000000,Y=2.259084,Z=50.000000),BoxExtent=(X=50.000000,Y=2.259099,Z=50.000000),SphereRadius=70.746756)
+End Object

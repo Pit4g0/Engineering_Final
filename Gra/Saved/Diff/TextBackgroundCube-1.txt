@@ -1,0 +1,48 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="BackgroundCube"
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMeshDescriptionBulkData:MeshDescription'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_4"
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="RB_BodySetup_5"
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData_5"
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshDescriptionBulkData Name="HiResMeshDescription" Archetype="/Script/Engine.StaticMeshDescriptionBulkData'/Script/Engine.Default__StaticMesh:HiResMeshDescription'"
+      Begin Object Class=/Script/StaticMeshDescription.StaticMeshDescription Name="MeshDescription" Archetype="/Script/StaticMeshDescription.StaticMeshDescription'/Script/Engine.Default__StaticMesh:HiResMeshDescription.MeshDescription'"
+      End Object
+   End Object
+   Begin Object Name="StaticMeshDescriptionBulkData_0"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="NavCollision_4"
+   End Object
+   Begin Object Name="RB_BodySetup_5"
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+      PhysicsType=PhysType_Kinematic
+   End Object
+   Begin Object Name="AssetImportData_5"
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   Begin Object Name="HiResMeshDescription"
+      Begin Object Name="MeshDescription"
+      End Object
+   End Object
+   SourceModels(0)=(StaticMeshDescriptionBulkData="/Script/Engine.StaticMeshDescriptionBulkData'StaticMeshDescriptionBulkData_0'",BuildSettings=(bUseBackwardsCompatibleF16TruncUVs=True,bGenerateLightmapUVs=False),ReductionSettings=(HardAngleThreshold=45.000000),CacheMeshDescriptionTrianglesCount=204,CacheMeshDescriptionVerticesCount=138,ScreenSize=(Default=1.000000))
+   SectionInfoMap=(Map=((0, ())))
+   OriginalSectionInfoMap=(Map=((0, ())))
+   StaticMaterials(0)=(MaterialInterface="/Script/Engine.Material'/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial'",MaterialSlotName="DefaultMaterial",ImportedMaterialSlotName="DefaultMaterial",UVChannelData=(bInitialized=True,LocalUVDensities[0]=1656.088989))
+   LightmapUVDensity=1656.088989
+   AssetImportData="/Script/Engine.AssetImportData'AssetImportData_5'"
+   ThumbnailInfo="/Script/UnrealEd.SceneThumbnailInfo'SceneThumbnailInfo_0'"
+   ExtendedBounds=(BoxExtent=(X=512.000000,Y=512.000000,Z=512.000000),SphereRadius=790.062561)
+End Object
