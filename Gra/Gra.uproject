@@ -15,5 +15,9 @@
 			"Name": "CommonUI",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"Linux"
 	]
 }
